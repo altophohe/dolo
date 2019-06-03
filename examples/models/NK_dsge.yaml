@@ -19,7 +19,7 @@ definitions:
 equations:
 
   arbitrage:
-    - 1/c-beta*r/(c(1)*pi(1))
+    - 1/c-beta*r/(c(1)*pi(1))  | 0 <= r <= inf
     - (epsilon/(epsilon-1))*mc + theta*beta*pi(1)^epsilon*F1(1)-F1
     - 1+theta*beta*pi(1)^(epsilon-1)*F2(1)-F2
     - c-exp(a)/Delta*n
